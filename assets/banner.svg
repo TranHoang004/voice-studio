@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="420" viewBox="0 0 1280 420">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#15181D"/><stop offset="1" stop-color="#0E1013"/>
+    </linearGradient>
+    <linearGradient id="w" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FFB020" stop-opacity="0"/>
+      <stop offset=".35" stop-color="#FFB020" stop-opacity=".9"/>
+      <stop offset="1" stop-color="#FFB020" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="420" fill="url(#g)"/>
+  <rect x="0.5" y="0.5" width="1279" height="419" fill="none" stroke="#262A31"/>
+  <!-- sóng âm -->
+  <g fill="url(#w)" opacity=".55" transform="translate(130 0)">
+    <rect x="700" y="196" width="6" height="28" rx="3"/><rect x="716" y="180" width="6" height="60" rx="3"/>
+    <rect x="732" y="160" width="6" height="100" rx="3"/><rect x="748" y="186" width="6" height="48" rx="3"/>
+    <rect x="764" y="140" width="6" height="140" rx="3"/><rect x="780" y="170" width="6" height="80" rx="3"/>
+    <rect x="796" y="120" width="6" height="180" rx="3"/><rect x="812" y="150" width="6" height="120" rx="3"/>
+    <rect x="828" y="176" width="6" height="68" rx="3"/><rect x="844" y="132" width="6" height="156" rx="3"/>
+    <rect x="860" y="100" width="6" height="220" rx="3"/><rect x="876" y="146" width="6" height="128" rx="3"/>
+    <rect x="892" y="172" width="6" height="76" rx="3"/><rect x="908" y="128" width="6" height="164" rx="3"/>
+    <rect x="924" y="156" width="6" height="108" rx="3"/><rect x="940" y="184" width="6" height="52" rx="3"/>
+    <rect x="956" y="142" width="6" height="136" rx="3"/><rect x="972" y="168" width="6" height="84" rx="3"/>
+    <rect x="988" y="190" width="6" height="40" rx="3"/><rect x="1004" y="160" width="6" height="100" rx="3"/>
+    <rect x="1020" y="182" width="6" height="56" rx="3"/><rect x="1036" y="198" width="6" height="24" rx="3"/>
+    <rect x="1052" y="188" width="6" height="44" rx="3"/><rect x="1068" y="202" width="6" height="16" rx="3"/>
+  </g>
+  <!-- [H▶] -->
+  <g transform="translate(96 118) scale(1.1)">
+    <g fill="#F3F1EA">
+      <path d="M0 0H22V9H9V91H22V100H0Z"/><path d="M100 0H78V9H91V91H78V100H100Z"/>
+      <path d="M17.5 24H26.5V45.5H43.5V24H52.5V76H43.5V54.5H26.5V76H17.5Z"/>
+    </g>
+    <path fill="#FFB020" d="M59.5 22L84 50L59.5 78Z"/>
+  </g>
+  <g font-family="Segoe UI, -apple-system, Helvetica Neue, Arial, sans-serif">
+    <text x="236" y="190" fill="#F3F1EA" font-size="64" font-weight="800" letter-spacing="-1">Voice Studio</text>
+    <text x="238" y="232" fill="#9EA4AD" font-size="22" letter-spacing="1">Nhân bản giọng tiếng Việt · chạy offline trên máy</text>
+    <g font-size="15" letter-spacing="2" fill="#F3F1EA">
+      <rect x="238" y="262" width="118" height="32" fill="none" stroke="#262A31"/><text x="252" y="283">WINDOWS</text>
+      <rect x="366" y="262" width="100" height="32" fill="none" stroke="#262A31"/><text x="380" y="283">MACOS</text>
+      <rect x="476" y="262" width="118" height="32" fill="none" stroke="#FFB020"/><text x="490" y="283" fill="#FFB020">OFFLINE</text>
+    </g>
+  </g>
+  <text x="96" y="382" fill="#9EA4AD" font-family="Consolas, Menlo, monospace" font-size="14" letter-spacing="4">[H▶] TRẦN HUY HOÀNG · IT × CREATIVE</text>
+  <text x="1184" y="382" fill="#5A6068" font-family="Consolas, Menlo, monospace" font-size="13" letter-spacing="3" text-anchor="end">ENGINE · VIENEU-TTS V3 TURBO</text>
+</svg>
